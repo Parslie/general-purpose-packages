@@ -73,7 +73,7 @@ public class SettingsHandler
 		return (keyValues[name] == "on") ? true : false;
 	}
 
-	public void SetString(string name, bool value)
+	public void SetBool(string name, bool value)
 	{
 		name = "b_" + name;
 		keyValues[name] = (value) ? "on" : "off";
