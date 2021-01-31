@@ -42,7 +42,7 @@ public class SettingsHandler
 		}
 		catch(Exception e)
 		{
-			Debug.LogError(e.Message);
+			Debug.LogError(e.Message); // TODO: add more specific error-handling
 		}
 	}
 
@@ -139,7 +139,7 @@ public class SettingsHandler
 		}
 		catch(Exception e)
 		{	
-			Debug.LogError(e.Message);
+			Debug.LogError(e.Message); // TODO: add more specific error-handling
 			return false;
 		}
 	}
